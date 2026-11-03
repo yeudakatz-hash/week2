@@ -9,6 +9,8 @@
 #
 # print(format_receipt([("milk", 6) , ("bread" , 3)]))
 
+
+
 # 2
 # def make_greeter(greeting):
 #     def greet(name):
