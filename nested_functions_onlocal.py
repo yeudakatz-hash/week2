@@ -22,19 +22,18 @@
 
 
 
-3
-def make_counter(step):
-    count = 0
-    def increment(step):
-        nonlocal count
-        count += step
-        return count
-    return increment
+# 3
+# def make_counter(step):
+#     count = 0
+#     def increment(step):
+#         nonlocal count
+#         count += step
+#         return count
+#     return increment
+#
+# by_ten = make_counter(10)
+# by_two = make_counter(2)
 
-by_ten = make_counter(10)
-by_two = make_counter(2)
-# print(by_ten(12))
-# print(by_ten(10))
 
 
 
